@@ -303,7 +303,7 @@ header {
         }
     }
     .mouse {
-        margin: 25vh auto 0;
+        margin: 18vh auto 0;
         @include d(s) {
             margin: 75px auto 0;
         }
@@ -321,7 +321,7 @@ header {
         height: 4px;
         width: 4px;
         border-radius: 8px;
-        @include animation(mouse-wheel 0.7s linear infinite);
+        @include animation(mouse-wheel 1s linear infinite);
     }
     .seta {
         display: block;
